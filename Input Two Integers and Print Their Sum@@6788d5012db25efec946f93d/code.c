@@ -8,6 +8,6 @@ int main() {
     printf("%d",b);
      
     c=a+b;
-    print("%d",c);
+    print("Sum: %d",c);
     return 0;
 }
