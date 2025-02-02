@@ -5,8 +5,8 @@ int main() {
     int Age;
     scanf("%s%s",&Name,&Hobby);
     scanf("%d",Age);
-    printf("Name: %s",Name);
-    printf("Age: %d",Age);
+    printf("Name: %s\n",Name);
+    printf("Age: %d\n",Age);
     printf("Hobby: %s",Hobby);
     return 0;
 }
