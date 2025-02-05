@@ -2,11 +2,11 @@
 int main() {
     int a,b;
     scanf("%d%d",&a,&b);
-    if(a==100 && b==150)
+    if(b>a)
     printf("Profit");
-    else if(a==200 && b==150)
-    printf("Loss");
-    else
+    else if(a==b)
     printf("No Profit No Loss");
+    else
+    printf("Loss");
     return 0;
 }
