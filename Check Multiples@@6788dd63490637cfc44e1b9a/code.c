@@ -2,7 +2,8 @@
 int main() {
     int a,b;
     scanf("%d%d",&a,&b);
-    if(a%b==0)
+    int c=a%b;
+    if(c==0)
     printf("Yes");
     else
     printf("False");
