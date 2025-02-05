@@ -6,6 +6,10 @@ int main() {
     {
         printf("Positive");
     }
+    if(a=0)
+    {
+        printf("Zero");
+    }
     else
     {
     printf("Negative");
