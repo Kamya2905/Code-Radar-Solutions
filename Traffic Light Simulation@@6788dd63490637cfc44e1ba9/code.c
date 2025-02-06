@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main() {
+int main() 
+{
     char a;
     scanf("%c",&a);
     switch(a)
