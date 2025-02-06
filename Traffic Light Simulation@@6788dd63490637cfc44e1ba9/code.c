@@ -8,10 +8,10 @@ int main()
        case 'R':
        printf("Stop");
        break;
-       case 2 'G':
+       case 'G':
        printf("Go");
        break;
-       case 3 'Y':
+       case 'Y':
        printf("Slow Down");
        break;
        default:
