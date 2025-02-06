@@ -7,7 +7,7 @@ int main()
     {
         switch(a)
     }
-{
+ {
     case 1: case 3: case 5: case 7: case 8: case 10: case 12:
     printf("31");
     break;
@@ -20,6 +20,6 @@ int main()
     default:
     printf("Invalid month");
     break;
-}
+ }
     return 0;
 }
