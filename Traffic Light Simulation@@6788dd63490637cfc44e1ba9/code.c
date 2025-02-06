@@ -2,13 +2,18 @@
 int main() {
     char a;
     scanf("%d",&a);
-    if(a='R')
+    switch(a);
+    {
+    case 'R':
     printf("Stop");
-    else if(a=='G')
+    break;
+    case 2 'G':
     printf("Go");
-    else if(a='Y')
+    break;
+    case 3 'Y':
     printf("Slow Down");
-    else
+    break;
+    default:
     printf("Invalid input");
     return 0;
 }
