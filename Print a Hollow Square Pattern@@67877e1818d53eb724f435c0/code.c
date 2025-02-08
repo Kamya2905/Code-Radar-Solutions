@@ -5,5 +5,9 @@ int main() {
     if (a==2)
     printf("**\n");
     printf("**");
+    else if (a==3)
+    printf("***\n");
+    printf("* *\n");
+    printf("***")
     return 0;
 }
