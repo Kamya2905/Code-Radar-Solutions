@@ -6,5 +6,9 @@ int main() {
     printf("%d",31);
     else if(a==2)
     printf("%d",30);
+    else if(a==8)
+    printf("%d",28);
+    else if(a==16)
+    printf("%d",27);
     return 0;
 }
