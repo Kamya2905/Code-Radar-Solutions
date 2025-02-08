@@ -2,10 +2,10 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if (a==2)
+    if(a==2)
     printf("**\n");
     printf("**\n");
-    else if (a==3)
+    else if(a==3)
     printf("***\n");
     printf("* *\n");
     printf("***\n");
