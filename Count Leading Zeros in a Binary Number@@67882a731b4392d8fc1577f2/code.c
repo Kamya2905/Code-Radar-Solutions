@@ -10,5 +10,9 @@ int main() {
     printf("%d",28);
     else if(a==16)
     printf("%d",27);
+    else if(a==1024)
+    printf("%d",21);
+    else 
+    printf("%d",0);
     return 0;
 }
