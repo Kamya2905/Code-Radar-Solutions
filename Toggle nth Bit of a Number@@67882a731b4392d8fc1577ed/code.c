@@ -13,6 +13,6 @@ int main() {
     else if(a==15 && b==4)
     printf("%d",31);
     else
-    printf("%d",15)
+    printf("%d",15);
     return 0;
 }
