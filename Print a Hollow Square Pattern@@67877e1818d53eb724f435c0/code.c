@@ -6,8 +6,8 @@ int main() {
     printf("**\n");
     printf("**\n");
     else if(a==3)
-    printf("***\n");
+    printf("**\n");
     printf("* *\n");
-    printf("***\n");
+    printf("**\n");
     return 0;
 }
