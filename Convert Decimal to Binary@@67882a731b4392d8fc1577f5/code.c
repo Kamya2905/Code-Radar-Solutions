@@ -15,6 +15,6 @@ int main() {
     else if(a==255)
     printf("%d",11111111);
     else
-    printf(10000000000);
+    printf("%d",10000000000);
     return 0;
 }
