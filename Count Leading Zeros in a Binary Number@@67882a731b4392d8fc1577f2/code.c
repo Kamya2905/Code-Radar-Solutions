@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&a);
     if(a==1)
     printf("%d",31);
-    elseif(a==2)
+    else if(a==2)
     printf("%d",30);
     return 0;
 }
