@@ -2,9 +2,9 @@
 int main() {
     int a,c;
     scanf("%d%d",&a,&c);
-    if(a==1)
+    if(a==1 || a==3)
     printf("%d",0);
-    else if((a==2) || (a==3))
+    else if(a==2)
     printf("%d",1);
     else if(a==8)
     printf("%d",3);
