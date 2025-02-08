@@ -4,10 +4,10 @@ int main() {
     scanf("%d",&a);
     if (a==2)
     printf("**\n");
-    printf("**");
+    printf("**\n");
     else if (a==3)
     printf("***\n");
     printf("* *\n");
-    printf("***");
+    printf("***\n");
     return 0;
 }
