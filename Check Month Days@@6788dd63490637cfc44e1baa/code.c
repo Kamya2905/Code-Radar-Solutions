@@ -5,7 +5,7 @@ int main()
     scanf("%d",&a);
     if(a<=1 && a>=12)
     {
-        switch(a)
+        switch(a);
     }
  {
     case 1: case 3: case 5: case 7: case 8: case 10: case 12:
