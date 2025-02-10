@@ -1,20 +1,20 @@
 #include <stdio.h>
 int main() {
-    int a;
-    scanf("%d",&a);
-    if(a==5)
-    printf("%d",101);
-    else if(a==8)
-    printf("%d",1000);
-    else if(a==15)
-    printf("%d",1111);
-    else if(a==0)
-    printf("%d",0);
-    else if(a==1024)
-    printf("%d",10000000000);
-    else if(a==255)
-    printf("%d",11111111);
-    else 
-    printf("%d",1);
+    int n;
+    scanf("%d", &n);
+    unsigned int mask = 1 << (sizeof(int) * 8 - 1);
+    int lZ = 1;
+    for (; mask > 0; mask >>= 1) {
+        if (n & mask) {
+            printf("1");
+            lZ = 0;
+        } else if (!lZ) {
+            printf("0");
+        }
+    }
+    if (lZ) {
+        printf("0");
+    }
+    printf("\n");
     return 0;
 }
