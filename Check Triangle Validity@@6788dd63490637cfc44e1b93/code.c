@@ -2,13 +2,9 @@
 int main() {
     int a,b,c;
     scanf("%d%d%d",&a,&b,&c);
-    if(a=3&b=4&c=6)
-    {
-        printf("Valid");
-    }
+    if(c*c==a*a+b*b)
+    printf("Valid");
     else
-    {
-        printf("Invalid");
-    }
+    printf("Invalid");
     return 0;
 }
