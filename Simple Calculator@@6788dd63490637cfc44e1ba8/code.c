@@ -1,12 +1,11 @@
 #include <stdio.h>
-int main()
-{
+int main() {
     int a,b;
     char c;
-    scanf("%d %d",&a,&b);
+    scanf("%d\n",&a);
+    scanf("%d\n",&b);
     scanf("%c",&c);
-    switch(c)
-    {
+    switch(c){
         case '+':
         printf("%d\n",a+b);
         break;
@@ -17,17 +16,14 @@ int main()
         printf("%d\n",a*b);
         break;
         case '/':
-        if (b==0)
-        {
+        if (b==0){
             printf("error\n");
-        }
-        else
-        {
+        }else{
             printf("%d\n",a/b);
         }
         break;
         default:
-        printf("error\n"); 
+        printf("error\n");
     }
     return 0;
 }
