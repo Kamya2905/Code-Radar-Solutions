@@ -1,13 +1,17 @@
 #include <stdio.h>
-int main() {
-    int a;
-    scanf("%d",&a);
-    if(a==2)
-    printf("**\n");
-    printf("**\n");
-    else if(a==3)
-    printf("***\n");
-    printf("* *\n");
-    printf("***\n");
-    return 0;
+int main()
+{
+    int i,j,n;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=n;j++)
+        {
+            if(i==1 || i==n || j==1 ||j==n)
+            printf("*");
+        }
+        else
+        printf(" ");
+    }
+    printf("\n");
 }
