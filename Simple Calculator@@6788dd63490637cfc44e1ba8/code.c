@@ -3,7 +3,7 @@ int main()
 {
     int a,b;
     char c;
-    scanf("%d%d",&a,&b);
+    scanf("%d %d",&a,&b);
     scanf("%c",&c);
     switch(c)
     {
@@ -25,12 +25,9 @@ int main()
         {
             printf("%d\n",a/b);
         }
-       
         break;
         default:
-        printf("error\n");
-    
-      
+        printf("error\n"); 
     }
     return 0;
 }
